@@ -1,2 +1,2 @@
 #!/bin/bash
-result=$((("WATER#bestchol"+${WATER//%/%%}+0)+("STIR#bestchol"+${STIR//%/%%}+0)))
+paste - - | cut -d$'\t' -f1
