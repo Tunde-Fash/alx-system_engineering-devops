@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -p | grep -Eo '^\w+'
+set | grep -E '^\w+='
